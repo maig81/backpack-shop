@@ -1,0 +1,21 @@
+{
+    "name": "maig81/backpack-shop",
+    "description": "Shop system for Laravel Backpack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko Marjanovic",
+            "email": "maig81@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "backpack/crud": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maig81\\BackpackShop\\": "src/"
+        }
+    }
+}
